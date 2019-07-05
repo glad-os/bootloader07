@@ -1,0 +1,5 @@
+This bootloader is taken from David Welch's original MIT licensed code.
+
+It is being extended to include the ability to process IHEX record type 4 
+(Extended Linear Address) as this is relevant to ensure that the IMP OS kernel 
+can be loaded into the top of memory.
